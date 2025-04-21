@@ -23,7 +23,7 @@ This is a machine learning project built with Flask and Scikit-Learn. The purpos
 ## Project Plan
 
 * Trello board 📋 : https://trello.com/b/rmi2p7JE/building-a-ci-cd-pipeline
-* Project Plan (Google Sheet) 📄 : 
+* Project Plan (Google Sheet) 📄 : https://docs.google.com/spreadsheets/d/16ePRKGLNfsUa3_YC4CXD1QcUR_0PgfndWVGlqvZcVsA/edit?gid=1348135932#gid=1348135932
 
 ## Instructions
 
