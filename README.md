@@ -100,7 +100,9 @@ Ensure the README.md contains your Actions badge:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+* Add more tests to make sure everything works well.
+* Docker Support: Containerize the app using Docker for better portability and scalability, and deploy it using Azure Container Instances or Azure Kubernetes Service.
+* Pipeline Optimization: Improve CI/CD pipeline performance by caching dependencies and running jobs in parallel where possible.
 
 ## Demo 
 
