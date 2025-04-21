@@ -89,7 +89,7 @@ Port: 443
 
 Ensure the README.md contains your Actions badge:
 
-[![Python application test with Github Actions](https://github.com/tissem31/building_CI-CD_pipeline/actions/workflows/pythonapp.yml/badge.svg?branch=master)](https://github.com/tissem31/bui>
+[![Python application test with Github Actions](https://github.com/tissem31/building_CI-CD_pipeline/actions/workflows/pythonapp.yml/badge.svg?branch=master)](https://github.com/tissem31/building_CI-CD_pipeline/actions/workflows/pythonapp.yml)
 
 
 ## Enhancements
