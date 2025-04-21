@@ -6,7 +6,7 @@ variables:
   azureServiceConnectionId: 'bc98862b-262c-4290-ad8c-bbab5137ea40'
 
   # Web app name
-  webAppName: 'flaskmlibit07'
+  webAppName: 'flaskmlibit08'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
