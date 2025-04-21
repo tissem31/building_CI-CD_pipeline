@@ -44,12 +44,21 @@ graph TD;
 git clone git@github.com:tissem31/building_CI-CD_pipeline.git
 cd building_CI-CD_pipeline
 ```
+📸 Screenshot: Colne the repos Github
+![clone repos github](https://github.com/user-attachments/assets/bacfef27-88ae-436a-a9fe-f7ebb9633d7a)
 
 * Install dependencies
 running the `make all` command from the `Makefile`
 ```bash
 make all
 ```
+
+* Deploy to Azure App Service
+```bash
+az webapp up --name flaskmlibitlast07 --sku B1 --runtime "PYTHON:3.10" --logs
+```
+📸 Screenshot: Successful web app service created
+![webapp created](https://github.com/user-attachments/assets/f123e27d-e12e-4d5c-85fe-77896c61d03c)
 
 * Test the app
 ```bash
@@ -65,18 +74,14 @@ Press CTRL+C to quit
  * Debugger is active!
  * Debugger PIN: 961-857-168
 ```
-
-
-* Deploy to Azure App Service
-```bash
-az webapp up --name flaskmlibitlast07 --sku B1 --runtime "PYTHON:3.10" --logs
-```
+![test app   comma,d](https://github.com/user-attachments/assets/29fe95a3-1e34-4819-ba9f-09246f23c087)
 
 * Output of streamed log files from deployed application
+![logs webapp](https://github.com/user-attachments/assets/5058d258-a81e-4abc-b5a7-e928615adbba)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
+📸 Screenshot: Successful build in Azure DevOps
+![succefful azurepipeline](https://github.com/user-attachments/assets/44e1dc1d-8b9e-4780-a90d-03ffda177b25)
 
 * Test the deployed endpoint
 ```bash
@@ -84,9 +89,10 @@ az webapp up --name flaskmlibitlast07 --sku B1 --runtime "PYTHON:3.10" --logs
 Port: 443
 {"prediction":[2.431574790057212]}
 ```
+📸 Screenshot: Output of successful prediction from deployed app
+![webapp deployed succeffuly](https://github.com/user-attachments/assets/3f00e6ab-d6a3-4363-8b17-da0f15826d51)
 
 * GitHub Actions CI Badge
-
 Ensure the README.md contains your Actions badge:
 
 [![Python application test with Github Actions](https://github.com/tissem31/building_CI-CD_pipeline/actions/workflows/pythonapp.yml/badge.svg?branch=master)](https://github.com/tissem31/building_CI-CD_pipeline/actions/workflows/pythonapp.yml)
@@ -100,13 +106,3 @@ Ensure the README.md contains your Actions badge:
 
 <TODO: Add link Screencast on YouTube>
 
-
-
-# Create web app
-![webapp created](https://github.com/user-attachments/assets/f6e0f5ee-9d82-4834-9b77-08a42c1a9953)
-
-# Deployement center app service
-![deployment center app service](https://github.com/user-attachments/assets/6ec48141-364d-48d3-9579-96d967741cc8)
-
-# Error Predict sh
-![problem-predict_ssh](https://github.com/user-attachments/assets/dae457f3-27da-489f-8371-bb7f37033f70)
